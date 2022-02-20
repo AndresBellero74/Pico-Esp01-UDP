@@ -3,8 +3,8 @@ import utime
 uart0 = UART(0,baudrate=115200,rx=Pin(1),tx=Pin(0))
 LED = Pin(25,Pin.OUT)
 LED.value(0)
-SSID = "Telecentro-3e0f"
-PASSWORD = "7QHCAC3HCMYA"
+SSID = "Wifi"
+PASSWORD = "Clave Wifi"
 UDP = '"UDP"'
 DIRUDP = '"0.0.0.0"'
 def sendCMD_waitResp(cmd, uart=uart0, timeout=2000):
